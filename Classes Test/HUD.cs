@@ -15,8 +15,9 @@ namespace Classes_Test
             Console.WriteLine("============");
             Console.WriteLine("Health: " + player.health);
             Console.WriteLine("Shield: " + player.shield);
-            Console.WriteLine("Armor Class: " + player.ac);
             Console.WriteLine("============");
+            Console.WriteLine();
+            Console.WriteLine("Press any key to continue");
         }
     }
 }

@@ -8,16 +8,23 @@ namespace Classes_Test
 {
     class Player
     {
+        public int maxHealth;
+        public int maxShield;
+
         public int health;
         public int shield;
         public int damage;
-        public int ac;
 
        public Player()
         {
             health = 100;
             shield = 50;
-            ac = 13;
+            damage = 12;
+        }
+
+        public void PlayerAttack()
+        {
+
         }
     }
 }
