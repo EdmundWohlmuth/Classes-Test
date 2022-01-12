@@ -17,6 +17,9 @@ namespace Classes_Test
 
         public Player()
         {
+            maxHealth = 100;
+            maxShield = 50;
+
             health = 100;
             shield = 50;
             damage = 15;
