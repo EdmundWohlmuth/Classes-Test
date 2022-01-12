@@ -15,6 +15,8 @@ namespace Classes_Test
         public int shield;
         public int damage;
 
+        Enemy enemy = new Enemy();
+
        public Player()
         {
             health = 100;
@@ -24,7 +26,11 @@ namespace Classes_Test
 
         public void PlayerAttack()
         {
+            Console.WriteLine("The player attacks!");
 
+            enemy.shield = enemy.shield - damage;
+
+            Console.WriteLine("Enemy takes: " + damage + " damage!");
         }
     }
 }

@@ -7,18 +7,21 @@ using System.Threading.Tasks;
 namespace Classes_Test
 {
     class Program
-    {       
+    {
+        static bool playing;
+
         static void Main(string[] args)
         {
-            bool isRunning = true;
+            playing = true;
 
             HUD HUD = new HUD();
             Player Player = new Player();
 
-            while (isRunning)
+            while (playing)
             {
                 HUD.DrawHUD();
                 Console.ReadKey(true);
+                
             }
 
             Console.ReadKey(true);

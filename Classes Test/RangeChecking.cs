@@ -11,6 +11,8 @@ namespace Classes_Test
         Player player = new Player();
         Enemy enemy = new Enemy();
 
+        public bool isplaying;
+
         public void PlayerHealthRangeCheck()
         {
             player.shield = player.shield - enemy.damge;

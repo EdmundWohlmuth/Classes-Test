@@ -12,11 +12,15 @@ namespace Classes_Test
         public int shield;
         public int damge;
 
+        Player player = new Player();
+
         public void EnemyAttack(int damage)
         {
-            Player player = new Player();
+            Console.WriteLine("The enemy attacks!");       
 
             player.shield = player.shield - damage;
+
+            Console.WriteLine("Player takes: " + damge + " damage!");
         }
 
         public Enemy()
