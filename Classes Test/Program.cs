@@ -17,12 +17,9 @@ namespace Classes_Test
             HUD HUD = new HUD();
             Player Player = new Player();
 
-            while (playing)
-            {
-                HUD.DrawHUD();
-                Console.ReadKey(true);
-                
-            }
+            HUD.DrawHUD();
+
+
 
             Console.ReadKey(true);
         }

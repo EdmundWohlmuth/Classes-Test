@@ -13,8 +13,8 @@ namespace Classes_Test
         public void DrawHUD()
         {
             Console.WriteLine("============");
-            Console.WriteLine("Health: " + player.health);
-            Console.WriteLine("Shield: " + player.shield);
+            Console.WriteLine("Health: " + player.health + "/" + player.maxHealth);
+            Console.WriteLine("Shield: " + player.shield + "/" + player.maxShield);
             Console.WriteLine("============");
             Console.WriteLine();
             Console.WriteLine("Press any key to continue");
